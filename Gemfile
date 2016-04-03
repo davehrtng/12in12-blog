@@ -46,3 +46,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 3.5.6'
+
+# to make deployable to heroku
+gem 'rails_12factor', group: :production
